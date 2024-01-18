@@ -15,10 +15,10 @@ public class GameOfLife
 		String fileName = args[0];
 		//// Uncomment the test that you want to execute, and re-compile.
 		//// (Run one test at a time).
-		 ///test1(fileName);
-		///test2(fileName);
+		 test1(fileName);
+		test2(fileName);
 		test3(fileName, 3);
-		/// play(fileName);
+		play(fileName);
 	}
 	
 	// Reads the data file and prints the initial board.

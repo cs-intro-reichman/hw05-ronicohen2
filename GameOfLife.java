@@ -15,7 +15,7 @@ public class GameOfLife
 		String fileName = args[0];
 		//// Uncomment the test that you want to execute, and re-compile.
 		//// (Run one test at a time).
-		 test1(fileName);
+		test1(fileName);
 		test2(fileName);
 		test3(fileName, 3);
 		play(fileName);
@@ -206,7 +206,7 @@ public class GameOfLife
 	// Prints the board. Alive and dead cells are printed as 1 and 0, respectively.
     public static void print(int[][] arr) 
 	{
-		for(int i=0; i<arr.length-1; i++)
+		for(int i=1; i<arr.length-1; i++)
 		{
 			for (int j=1; j<arr[0].length-1; j++)
 			{
